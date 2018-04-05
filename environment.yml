@@ -1,0 +1,13 @@
+name: binder
+channels:
+  - anaconda-nb-extensions/label/dev
+  - anaconda-nb-extensions
+dependencies:
+  - python=3.6
+  - bokeh
+  - nbpresent
+  - ipywidgets
+  - notebook
+  - pyyaml
+  - pip:
+    - pyld
