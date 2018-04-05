@@ -3,7 +3,7 @@ channels:
   - anaconda-nb-extensions/label/dev
   - anaconda-nb-extensions
 dependencies:
-  - python=3.6
+  - python=3.5
   - bokeh
   - nbpresent
   - ipywidgets
