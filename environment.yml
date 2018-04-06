@@ -1,13 +1,17 @@
 name: binder
 channels:
-#  - anaconda-nb-extensions/label/dev
   - anaconda-nb-extensions
+  - damianavila82
+  - conda-forge
 dependencies:
   - python=3.5
-#  - bokeh
   - nbpresent
-#  - ipywidgets
-#  - notebook
-#  - pyyaml
-#  - pip:
-#    - pyld
+  - numpy
+  - matplotlib
+  - pandas
+  - bokeh
+  - rise
+  - jupyter_contrib_nbextensions
+  - jupyter_nbextensions_configurator
+  - ipywidgets
+  - notebook
